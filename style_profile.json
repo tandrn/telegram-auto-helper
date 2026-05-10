@@ -1,0 +1,11 @@
+{
+  "tone": "не удалось получить профиль",
+  "length": "средне",
+  "emoji_usage": "редко",
+  "punctuation": "нейтральная",
+  "slang": "без данных",
+  "formality_1_10": 5,
+  "common_patterns": [
+    "LLM error: Request timed out."
+  ]
+}
