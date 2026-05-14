@@ -16,3 +16,5 @@ dist/
 *.egg-info/
 .coverage
 htmlcov/
+cleaned_style.json
+result.json

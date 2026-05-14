@@ -26,7 +26,7 @@ def _get_int(name: str, default: int) -> int:
 
 
 YANDEX_API_KEY: str = os.getenv("YANDEX_API_KEY", "")
-YANDEX_MODEL: str = os.getenv("YANDEX_MODEL", "gpt-3.5-turbo")
+YANDEX_MODEL = os.getenv("YANDEX_MODEL", "qwen3-235b-a22b-fp8")
 YANDEX_BASE_URL: str = os.getenv(
     "YANDEX_BASE_URL", "https://llm.api.cloud.yandex.net/v1")
 YANDEX_FOLDER_ID: str = os.getenv("YANDEX_FOLDER_ID", "")
